@@ -6,8 +6,17 @@ using System.Threading.Tasks;
 
 namespace MyMath
 {
+    /// <summary>
+    /// Ultimate Math Library
+    /// </summary>
     public class Math
     {
+        /// <summary>
+        /// Add double, int or strings with numbers
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
         public double Add(double x, double y)
         {
             return x + y;
@@ -23,6 +32,12 @@ namespace MyMath
             return Convert.ToDouble(x) + Convert.ToDouble(y);
         }
 
+        /// <summary>
+        /// Multiply double or int
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
         public double Multiply(double x, double y)
         {
             return x * y;
@@ -33,6 +48,12 @@ namespace MyMath
             return x * y;
         }
 
+        /// <summary>
+        /// Substract double, int or strings with numbers
+        /// </summary>
+        /// <param name="x"></param>
+        /// <param name="y"></param>
+        /// <returns></returns>
         public double Substract(double x, double y)
         {
             return x - y;
